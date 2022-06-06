@@ -18,15 +18,12 @@ const sorter = (listNama, callBack) => {
 
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
-const sortAscending = (ascArray) => {
-  return ascArray.sort()
-}
+const sortAscending = (ascArray) => ascArray.sort()
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
-const sortDescending = (descArray) => {
-  return descArray.sort().reverse()
-}
+const sortDescending = (descArray) => descArray.sort().reverse()
+
 
 // ! JANGAN DIMODIFIKASI
 (function main() {
