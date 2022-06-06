@@ -13,19 +13,19 @@ const sorter = (listNama, callBack) => {
     for (let i=0; i< simpanArray.length; i++) {
       hasilArray.push(i+1 + '.' + simpanArray[i])
     }
-  return hasilArray
+  return hasilArray;
 }
 
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
-const sortAscending = (dataArray) => {
-  return dataArray.sort()
+const sortAscending = (ascArray) => {
+  return ascArray.sort()
 }
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
-const sortDescending = (dataArray) => {
-  return dataArray.sort().reverse()
+const sortDescending = (descArray) => {
+  return descArray.sort().reverse()
 }
 
 // ! JANGAN DIMODIFIKASI
