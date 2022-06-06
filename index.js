@@ -32,11 +32,11 @@ const sorter = (arrName, cbLogicSorter) => {
 
 // TODO: Fungsi untuk mengurutkan array of string secara ascending
 // mengembalikan array yang sudah diurutkan
-const sortAscending = (ascArray) => ascArray.sort()
+const sortAscending = (ascArray) => ascArray.sort();
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
-const sortDescending = (descArray) => descArray.sort().reverse()
+const sortDescending = (descArray) => descArray.sort().reverse();
 
 
 // ! JANGAN DIMODIFIKASI
